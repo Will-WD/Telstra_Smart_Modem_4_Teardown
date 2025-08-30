@@ -1,38 +1,38 @@
 Simple Hardware Teardown of the Telstra Smart Modem 4 
 
-Model No. Telstra Smart Modem 4 5G
-Model Name: Mongoose-5GFW
+- Model No. Telstra Smart Modem 4 5G
+- Model Name: Mongoose-5GFW
 
 Input Voltage: 
-12V / 3A
+- 12V / 3A
 
 It's a white labelled modem/router rebranded by Telstra
 
 Ports: (rear)
-Power Input: DC Barrel Jack 2.1mm
-DSL: 1X RJ11
-USB 2.0
-Reset (pin hole)
-WAN: 1X RJ45
-LAN: 4X RJ45
-VOIP: 1X RJ11
+- Power Input: DC Barrel Jack 2.1mm
+- DSL: 1X RJ11
+- USB 2.0
+- Reset (pin hole)
+- WAN: 1X RJ45
+- LAN: 4X RJ45
+- VOIP: 1X RJ11
 
 Connectors: (rear)
-2X SMA female bulkhead mounts 
-Not labelled up but these are for external LTE antennas.
-Use an external SMA Male antenna or SMA Male -> Fakra adapter cable for antennas. 
+- 2X SMA female bulkhead mounts 
+- Not labelled up but these are for external LTE antennas.
+- Use an external SMA Male antenna or SMA Male -> Fakra adapter cable for antennas. 
 
 Buttons: (rear)
-Lights button - hold for 3s to turn on & off front LED light
-WIFI - press to enable/disable wifi
-WPS - press to enable WPS 
+- Lights button - hold for 3s to turn on & off front LED light
+- WIFI - press to enable/disable wifi
+- WPS - press to enable WPS 
 
 Lights: (rear)
-WAN/DSL Indicator light
-Mobile signal (3 bars small to large - these have been all lit, even though I'm only getting 10Mbps....)
-[ in comparison an iPhone 16 alongside the router also on the Telstra network shows 3 of 5 bars]
-Phone Indicator light
-WIFI Indicator
+- WAN/DSL Indicator light
+- Mobile signal (3 bars small to large - these have been all lit, even though I'm only getting 10Mbps....)
+- [ in comparison an iPhone 16 alongside the router also on the Telstra network shows 3 of 5 bars]
+- Phone Indicator light
+- WIFI Indicator
 
 Lights: (front)
 Single RGBW LED indicator
@@ -43,15 +43,14 @@ Single RGBW LED indicator
 
 
 Dissassembly:
-2X  TX10 (torx) screws located under the rubberised feet.
-Split shell design, slide the front half up to seperate the modem-router
+- 2X  TX10 (torx) screws located under the rubberised feet.
+- Split shell design, slide the front half up to seperate the modem-router
 
 General Assembly:
-Plenty of heatstinks, thermal pads & shielding on the board which is good to see.
+- Plenty of heatstinks, thermal pads & shielding on the board which is good to see.
 
 PCB Notation:
-SAGEMCOM FAST 5988TA V2.1
-
+- SAGEMCOM FAST 5988TA V2.1
 
 Notable Internals:
 
@@ -106,7 +105,7 @@ LTE Modem:
 eSIM:
 unknown part number - but assume it matches the same pinout as the standard MFF2 footprint, DFN8 5X6mm
 
-Power Supply (I assume this is setup as a HW Power watchdog?)
+Power Supply Watchdog?
 MP111 'Dying gasp storange & release control IC'
 - https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/EN/sku/MP111/document_id/1088/?utm_source=chatgpt.com
 
