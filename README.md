@@ -113,3 +113,13 @@ Level Shifters:
 - TXS0104ERGYR
 - https://www.ti.com/lit/ds/symlink/txs0104e.pdf?ts=1756473294173
 
+5G Network speed tests
+(comments per committed images)
+
+- 192Mbps - Baseline Sierra XR80 - Telstra network - Same location, external antennas mounted to window
+- 429Mbps - TSM4 Internal Antennas - internal antennas selected in settings
+- 398Mbps - TSM4 External Antenna - external antennas selected in settings
+- 55Mbps - TSM4 External Antennas selected in settings, but no external antennas connected
+  - (proves that swapping internal/ external settings makes a difference)
+
+- 402Mbps - TSM4 Auto Antennas Selection - External antennas fitted, Auto antenna selection enabled in settings.
